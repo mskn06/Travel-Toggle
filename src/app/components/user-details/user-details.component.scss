@@ -1,0 +1,42 @@
+$head: #d1681e;
+$body: #fffcd9;
+
+.myPanel {
+  mat-expansion-panel-header {
+    background-color: $head;
+
+    mat-panel-title {
+      color: white;
+      font-size: larger;
+      font-weight: 500;
+    }
+  }
+}
+
+.details {
+  display: flex;
+  flex-wrap: wrap;
+
+  div {
+    width: 50%;
+  }
+  div:first-of-type {
+    width: 100%;
+  }
+  .converted {
+    align-self: center;
+    color: green;
+  }
+  img.eye {
+    height: 4rem;
+  }
+  img.phone {
+    height: 1rem;
+  }
+}
+
+.documents h3 {
+  font-weight: 500;
+  color: $head;
+  margin: 10px 0 0 0;
+}

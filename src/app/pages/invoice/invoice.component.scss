@@ -1,0 +1,74 @@
+$head: #d1681e;
+$body: #fffcd9;
+
+.page {
+  display: flex;
+  justify-content: space-around;
+}
+
+.invoice {
+  margin: 20px 0;
+  width: 65%;
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: $head;
+    color: white;
+    padding: 10px 24px;
+
+    .middle {
+      display: flex;
+      align-items: center;
+      img {
+        height: 3rem;
+      }
+    }
+  }
+
+  .content {
+    background: $body;
+    padding: 24px;
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+
+      .full-width {
+        margin: 0 12px 20px 0;
+
+        .mat-form-field-wrapper .mat-form-field-flex {
+          border: 1px solid black;
+          padding-left: 13px;
+          background: white;
+        }
+      }
+    }
+
+    .terms {
+      display: flex;
+      align-items: center;
+      small {
+        padding-left: 4px;
+      }
+    }
+    .action-btn {
+      display: flex;
+      justify-content: space-evenly;
+
+      button {
+        font-size: initial;
+        padding: 10px 14px;
+        background: white;
+        border-radius: 4px;
+        border: 1px black solid;
+      }
+    }
+  }
+}
+
+.sidebar {
+  margin: 20px 0;
+  width: 25%;
+}

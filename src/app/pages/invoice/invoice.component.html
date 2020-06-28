@@ -1,0 +1,114 @@
+<div class="page">
+  <!-- invoice details -->
+  <div class="invoice">
+    <!-- header -->
+    <div class="header">
+      <div>
+        CREATE INVOICE
+      </div>
+      <div class="middle">
+        <img
+          src="../../../assets/icons/iconfinder_eye_preview_see_seen_view_392505.png"
+          alt=""
+        />
+        Not Seen
+      </div>
+      <div>
+        TRIP ID 7398313
+      </div>
+    </div>
+
+    <!-- content -->
+    <div class="content">
+      <form>
+        <!-- 1st -->
+        <div class="row">
+          <div class="full-width">
+            <div>No. of Installments</div>
+            <input matInput type="number" placeholder="2" />
+          </div>
+
+          <div class="full-width">
+            <div>Currency</div>
+            <input matInput placeholder="Rupee" />
+          </div>
+        </div>
+
+        <!-- 2nd -->
+        <h3>Installment Amount</h3>
+        <div class="row">
+          <div class="full-width">
+            <input matInput type="number" placeholder="36,500.0" />
+          </div>
+        </div>
+
+        <!-- 3rd -->
+        <div class="row">
+          <div class="full-width">
+            <div>Installment</div>
+            <input matInput type="number" placeholder="26,500.0" />
+          </div>
+          <div class="full-width">
+            <div>Date</div>
+            <input matInput type="date" />
+          </div>
+        </div>
+
+        <!-- 4th -->
+        <div class="row">
+          <div class="full-width">
+            <div>Installment</div>
+            <input matInput type="number" />
+          </div>
+          <div class="full-width">
+            <div>Date</div>
+            <input matInput type="date" />
+          </div>
+        </div>
+
+        <!-- 5th -->
+        <div class="row">
+          <div class="full-width">
+            <div>Flight Cost</div>
+            <input matInput type="number" placeholder="0.0" />
+          </div>
+          <div class="full-width">
+            <div>Visa Cost</div>
+            <input matInput type="number" placeholder="0.0" />
+          </div>
+          <div class="full-width">
+            <div>Land package Cost</div>
+            <input matInput type="number" placeholder="0.0" />
+          </div>
+          <div class="full-width">
+            <div>TCS Amount</div>
+            <input matInput type="number" placeholder="0.0" />
+          </div>
+          <div class="full-width">
+            <div>TOTAL INVOICE AMOUNT</div>
+            <input matInput type="number" placeholder="0.0" />
+          </div>
+        </div>
+
+        <!-- Terms & Conditions -->
+        <div class="terms">
+          <h3>TERMS & CONDITIONS</h3>
+          <small><a href="">VIEW</a></small>
+        </div>
+
+        <!-- action buttons -->
+        <div class="action-btn">
+          <button class="btn-cancel">
+            CANCEL
+          </button>
+          <button class="btn-save">
+            SAVE & SEND
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="sidebar">
+    <app-user-details></app-user-details>
+  </div>
+</div>
